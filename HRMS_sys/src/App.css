@@ -1,0 +1,51 @@
+.d-flex {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  min-height: 100vh;
+  background-color: #0f172a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  z-index: 1000;
+  border-radius: 0 12px 12px 0;
+}
+
+.content-area {
+  margin-left: 300px; 
+  width: calc(100% - 300px);
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 30px;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .content-area {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+}
