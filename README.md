@@ -1,6 +1,7 @@
 # HRMS - Human Resource Management System
 
-A full-stack web-based HRMS platform designed to manage employee data, job postings, leave applications, payroll processing, and user authentication.
+A full-stack web-based HRMS platform designed to manage employee data, job postings, leave applications, payroll processing
+and user authentication.
 
 ---
 
